@@ -8,13 +8,15 @@ Contact: tsog215@gmail.com
 
 A matlab code oz_lj_ts_run_opt_one_parm.m computes a free parameter in Verlet bridge function using dp_c = dp_v consistency criteria for the one-component Lennard-Jones fluid by solving the Ornstein-Zernike equation with a Picard iteration technique. 
 
+The code OZ_solver_one_component_plasma_hnc.m solves the OZ equation for one-component plasma in the hypernetted chain approximation. 
+ 
 ## Requirement: 
 Any version of Matlab 
 
 ## Implementation details and running
 
 The code oz_lj_ts_run_opt_one_parm.m uses the fminsearch.m function from Matlab software to find a optimal value of a free parameter. A code oz_lj_ts.m solves the Ornstein-Zernike integral equation for the Lennard-Jones potential together with a one-parameter Verlet-modified closure. The code oz_lj_ts.m  uses a code lsint.m which calculates the sine transform of a function.    
-You may download them and run the oz_lj_ts_run_opt_one_parm.m directly. 
+You may download them and run the oz_lj_ts_run_opt_one_parm.m directly. You can download and run the OZ_solver_one_component_plasma_hnc.m directly. 
 
 ## Copyright / License 
 
